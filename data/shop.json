@@ -31,35 +31,35 @@
       "category": "bags",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/bags/01.jpg",
+      "image": "./img/bags/01.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "bags",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/bags/02.jpg",
-      "image2": "../img/bags/022.jpg"
+      "image": "./img/bags/02.jpg",
+      "image2": "./img/bags/022.jpg"
     },{
       "name": "Chloe",
       "category": "bags",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/bags/03.jpg",
-      "image2": ""
-    },{
-      "name": "Chloe",
-      "category": "bags",
-      "price": 250,
-      "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/bags/04.jpg",
+      "image": "./img/bags/03.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "bags",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/bags/05.jpg",
+      "image": "./img/bags/04.jpg",
+      "image2": ""
+    },{
+      "name": "Chloe",
+      "category": "bags",
+      "price": 250,
+      "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
+      "image": "./img/bags/05.jpg",
       "image2": ""
     },
     {
@@ -67,35 +67,35 @@
       "category": "costume",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/costume/01.jpg",
+      "image": "./img/costume/01.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "costume",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/costume/02.jpg",
+      "image": "./img/costume/02.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "costume",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/costume/03.jpg",
+      "image": "./img/costume/03.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "costume",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/costume/04.jpg",
+      "image": "./img/costume/04.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "costume",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/costume/05.jpg",
+      "image": "./img/costume/05.jpg",
       "image2": ""
     },
     {
@@ -103,35 +103,35 @@
       "category": "glasses",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/glasses/01.jpg",
+      "image": "./img/glasses/01.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "glasses",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/glasses/02.jpg",
+      "image": "./img/glasses/02.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "glasses",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/glasses/03.jpg",
+      "image": "./img/glasses/03.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "glasses",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/glasses/04.jpg",
+      "image": "./img/glasses/04.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "glasses",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/glasses/05.jpg",
+      "image": "./img/glasses/05.jpg",
       "image2": ""
     },
     {
@@ -139,35 +139,35 @@
       "category": "gold",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/gold/01.jpg",
+      "image": "./img/gold/01.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "gold",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/gold/02.jpg",
+      "image": "./img/gold/02.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "gold",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/gold/03.jpg",
+      "image": "./img/gold/03.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "gold",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/gold/04.jpg",
+      "image": "./img/gold/04.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "gold",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/gold/05.jpg",
+      "image": "./img/gold/05.jpg",
       "image2": ""
     },
     {
@@ -175,35 +175,35 @@
       "category": "wallet",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/wallet/01.jpg",
+      "image": "./img/wallet/01.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "wallet",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/wallet/02.jpg",
+      "image": "./img/wallet/02.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "wallet",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/wallet/03.jpg",
+      "image": "./img/wallet/03.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "wallet",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/wallet/04.jpg",
+      "image": "./img/wallet/04.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "wallet",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/wallet/05.jpg",
+      "image": "./img/wallet/05.jpg",
       "image2": ""
     },
     {
@@ -211,35 +211,35 @@
       "category": "watches",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/watches/01.jpg",
+      "image": "./img/watches/01.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "watches",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/watches/02.jpg",
+      "image": "./img/watches/02.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "watches",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/watches/03.jpg",
+      "image": "./img/watches/03.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "watches",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/watches/04.jpg",
+      "image": "./img/watches/04.jpg",
       "image2": ""
     },{
       "name": "Chloe",
       "category": "watches",
       "price": 250,
       "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
-      "image": "../img/watches/05.jpg",
+      "image": "./img/watches/05.jpg",
       "image2": ""
     }
   ]
