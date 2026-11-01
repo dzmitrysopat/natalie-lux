@@ -5,12 +5,24 @@
       "name": "Сумки"
     },
     {
-      "id": "down-jackets",
-      "name": "Пуховики"
+      "id": "sport-jackets",
+      "name": "Костюмы"
     },
     {
-      "id": "shoes",
-      "name": "Обувь"
+      "id": "wallet",
+      "name": "Кошельки"
+    },
+    {
+      "id": "watches",
+      "name": "Часы"
+    },
+    {
+      "id": "gold",
+      "name": "Бижутерия"
+    },
+    {
+      "id": "glasses",
+      "name": "Очки"
     }
   ],
   "items": [
