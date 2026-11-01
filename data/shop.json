@@ -1,0 +1,185 @@
+{
+  "categories": [
+    {
+      "id": "bags",
+      "name": "Сумки"
+    },
+    {
+      "id": "down-jackets",
+      "name": "Пуховики"
+    },
+    {
+      "id": "shoes",
+      "name": "Обувь"
+    }
+  ],
+  "items": [
+    {
+      "name": "Chloe",
+      "category": "bags",
+      "price": 250,
+      "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/10_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/10_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/10_06.PNG"
+    },
+    {
+      "name": "BOTTEGA VENETA",
+      "category": "bags",
+      "price": 230,
+      "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/11_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/11_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/11_03.PNG"
+    },
+    {
+      "name": "FURLA",
+      "category": "bags",
+      "price": 250,
+      "description": "Натуральная кожа. Комплект: коробка, пыльник, документы",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/12_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/12_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/12_05.PNG"
+    },
+    {
+      "name": "PINKO",
+      "category": "bags",
+      "price": 180,
+      "description": "Качество Люкс. Комплект: коробка",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/13_03.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/13_06.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/13_05.PNG"
+    },
+    {
+      "name": "GIVENCHY",
+      "category": "bags",
+      "price": 160,
+      "description": "Люкс качество. Комплект: коробка. Размер : 20*8*13 cм",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/14_04.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/14_03.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/14_02.PNG"
+    },
+    {
+      "name": "BALMAIN",
+      "category": "bags",
+      "price": 170,
+      "description": "Люкс качество. Размер: 32*10*26 см",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/15_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/15_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/15_04.PNG"
+    },
+    {
+      "name": "IVE SAINT LAUREN",
+      "category": "bags",
+      "price": 170,
+      "description": "Качество люкс. Размер: 20*20 см",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/16_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/16_03.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/16_06.PNG"
+    },
+    {
+      "name": "Dior",
+      "category": "bags",
+      "price": 130,
+      "description": "Комплект: коробка, пыльник. Размер 24*9*18 см",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/17_08.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/17_05.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/17_07.PNG"
+    },
+    {
+      "name": "LANVIN",
+      "category": "bags",
+      "price": 185,
+      "description": "Эко Люкс. Комплект: коробка, пыльник. Размер 26*10 см",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/18_02.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/18_04.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/18_05.PNG"
+    },
+    {
+      "name": "PINKO",
+      "category": "bags",
+      "price": 135,
+      "description": "Эко кожа люкс. Комплект: коробка, пыльник. Размер: 22*8*15 см",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/19_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/19_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/19_03.PNG"
+    },
+    {
+      "name": "CHANEL",
+      "category": "bags",
+      "price": 85,
+      "description": "Эко кожа",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/01_04.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/01_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/01_05.PNG"
+    },
+    {
+      "name": "Premium",
+      "category": "bags",
+      "price": 80,
+      "description": "Соломенная плетеная сумка из ротанга",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/02_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/02_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/02_03.PNG"
+    },
+    {
+      "name": "CHANEL",
+      "category": "bags",
+      "price": 75,
+      "description": "",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/03_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/03_03.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/03_02.PNG"
+    },
+    {
+      "name": "Louis Vuitton",
+      "category": "bags",
+      "price": 90,
+      "description": "",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/04_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/04_03.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/04_02.PNG"
+    },
+    {
+      "name": "Louis Vuitton",
+      "category": "bags",
+      "price": 95,
+      "description": "",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/05_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/05_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/05_03.PNG"
+    },
+    {
+      "name": "Dolсе & Gabbana",
+      "category": "bags",
+      "price": 90,
+      "description": "",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/06_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/06_02.PNG"
+    },
+    {
+      "name": "CHANEL",
+      "category": "bags",
+      "price": 85,
+      "description": "",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/07_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/07_02.PNG",
+      "image3": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/07_03.PNG"
+    },
+    {
+      "name": "CHANEL",
+      "category": "bags",
+      "price": 75,
+      "description": "Эко кожа",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/08_01.PNG",
+      "image2": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/08_02.PNG"
+    },
+    {
+      "name": "CHANEL",
+      "category": "bags",
+      "price": 75,
+      "description": "Эко кожа",
+      "image": "https://nktdrqvbkkxvvkblfvma.supabase.co/storage/v1/object/public/products/09.PNG"
+    }
+  ]
+}

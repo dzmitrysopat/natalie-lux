@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant:wght@400;500;600;700&family=Cormorant+Infant:wght@700&display=swap">
 
   <link rel="preload" as="image" href="img/hero.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Структурированные данные -->
@@ -96,56 +97,12 @@
       <article class="products" id="products" aria-labelledby="products-title">
         <h2 class="visually-hidden" id="products-title">Товары каталога</h2>
 
-        <ul class="filters" aria-label="Категории">
-          <li><a class="filters__item is-active" href="#products" aria-current="true">Все</a></li>
-          <li><a class="filters__item" href="#products">Сумки</a></li>
-          <li><a class="filters__item" href="#products">Пуховики</a></li>
-          <li><a class="filters__item" href="#products">Обувь</a></li>
-        </ul>
+        <ul class="filters" id="filters" aria-label="Категории"></ul>
 
-        <ul class="grid">
-          <!-- Карточка товара (повторяется 9 раз, как в макете) -->
-          <li class="card"><img class="card__img" src="img/product-1.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-          <li class="card"><img class="card__img" src="img/product-2.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-          <li class="card"><img class="card__img" src="img/product-3.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
+        <ul class="grid" id="productGrid" aria-live="polite"></ul>
+        <noscript><p class="grid__empty">Чтобы увидеть каталог, включите JavaScript.</p></noscript>
 
-          <li class="card"><img class="card__img" src="img/product-1.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-          <li class="card"><img class="card__img" src="img/product-2.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-          <li class="card"><img class="card__img" src="img/product-3.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-
-          <li class="card"><img class="card__img" src="img/product-1.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-          <li class="card"><img class="card__img" src="img/product-2.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-          <li class="card"><img class="card__img" src="img/product-3.png" alt="Сумка “Furla” dark brown" width="357" height="457" loading="lazy">
-            <h3 class="card__title">Сумка “Furla” dark brown</h3>
-            <p class="card__meta">натуральная премиальная кожа<br>средний размер: 33*20*11 см</p>
-            <p class="card__price">495 BYN</p></li>
-        </ul>
-
-        <button class="btn" type="button">Показать больше</button>
+        <button class="btn" type="button" id="loadMore" hidden>Показать больше</button>
       </article>
     </section>
 
@@ -244,6 +201,7 @@
     <p class="footer__copy">© <span id="year">2026</span> NATALIE LUX</p>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js" defer></script>
+  <script src="js/script.js" defer></script>
 </body>
 </html>

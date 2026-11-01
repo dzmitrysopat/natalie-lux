@@ -201,7 +201,7 @@ address { font-style: normal; }
   object-fit: cover;
   background: #ebe9e6;
 }
-.card__title { margin-top: 26px; font-size: 28px; line-height: 32px; font-weight: 700; }
+.card__title { margin-top: 6px; font-size: 28px; line-height: 32px; font-weight: 700; }
 .card__meta { margin-top: 16px; font-size: 18px; line-height: 24px; font-weight: 400; opacity: 0.9; }
 .card__price { margin-top: 10px; font-family: var(--font-num); font-size: 22px; line-height: 32px; font-weight: 700; opacity: 0.9; }
 
@@ -216,12 +216,32 @@ address { font-style: normal; }
 }
 .btn:hover, .btn:focus-visible { background: var(--white); color: var(--black); transform: translateY(-2px); }
 
+[hidden] { display: none !important; }
+.products > noscript { grid-area: grid; }
+.card { min-width: 0; }
+.card__media { width: 100%; overflow: hidden; }
+/* точки слайдера: место резервируется всегда, чтобы карточки с 1 и с 3 фото были на одной высоте */
+.card__dots {
+  height: 20px;
+  display: flex; align-items: center; justify-content: center;
+  --swiper-pagination-color: var(--black);
+  --swiper-pagination-bullet-inactive-color: var(--black);
+  --swiper-pagination-bullet-inactive-opacity: 0.25;
+  --swiper-pagination-bullet-size: 7px;
+}
+.card .card__dots.swiper-pagination { position: static; width: auto; }
+.grid__empty { grid-column: 1 / -1; padding: 40px 0; font-size: 24px; opacity: 0.6; }
+
 /* ---------- Баннеры «Доставка» и «О нас» ---------- */
 .banner {
   --title-top: min(11.74vw, 169px);
-  --body-top: min(21.25vw, 306px);
   position: relative;
-  height: clamp(420px, 66.67vw, 960px);
+  display: flex; flex-direction: column; align-items: center;
+  min-height: clamp(420px, 66.67vw, 960px);
+  /* Отступ сверху = положение линии под заголовком. Текст всегда занимает место в потоке
+     (просто прозрачный), поэтому баннер сам подстраивается под объём текста на любой ширине
+     и не «прыгает» при наведении. */
+  padding: min(21.25vw, 306px) var(--pad) 100px;
   overflow: hidden;
   color: var(--white);
 }
@@ -244,14 +264,15 @@ address { font-style: normal; }
   line-height: 1;
   font-weight: 700;
   white-space: nowrap;
+  z-index: 1;
   transition: top 0.6s var(--ease), transform 0.6s var(--ease), font-size 0.6s var(--ease), color 0.6s var(--ease);
 }
 .banner__trigger { font: inherit; font-weight: inherit; color: inherit; cursor: pointer; }
 
 .banner__body {
-  position: absolute; left: 50%; top: var(--body-top);
-  width: min(871px, calc(100% - 2 * var(--pad)));
-  transform: translate(-50%, 24px);
+  position: relative; z-index: 1;
+  width: min(871px, 100%);
+  transform: translateY(24px);
   color: var(--black);
   opacity: 0;
   pointer-events: none;
@@ -271,7 +292,7 @@ address { font-style: normal; }
   font-size: clamp(40px, 5.56vw, 80px);
   color: var(--black);
 }
-.banner.is-open .banner__body { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.banner.is-open .banner__body { opacity: 1; transform: none; pointer-events: auto; }
 
 /* ---------- Контакты ---------- */
 .contacts { padding-top: 100px; }
@@ -374,20 +395,25 @@ address { font-style: normal; }
 
   .hero__arrow { width: 44px; }
 
-  /* баннеры: при открытии становятся блоком в потоке */
-  .banner { height: clamp(360px, 70vw, 560px); }
-  .banner__body { display: grid; grid-template-rows: 0fr; position: static; top: auto; left: auto; transform: none; width: auto; margin: 0 var(--pad); }
+  /* баннеры: в закрытом виде компактные, при открытии растут по высоте текста */
+  .banner { height: clamp(360px, 70vw, 560px); min-height: 0; padding: 0; }
+  .banner__body {
+    display: grid; grid-template-rows: 0fr;
+    width: calc(100% - 2 * var(--pad));
+    transform: none;
+    transition: grid-template-rows 0.5s var(--ease), opacity 0.6s var(--ease) 0.1s;
+  }
   .banner__body-inner { overflow: hidden; min-height: 0; }
-  .banner__body .banner__line { margin-bottom: 28px; }
+  .banner__line { margin-bottom: 28px; }
   .banner__text { font-size: 19px; }
 
-  .banner.is-open {
-    height: auto; min-height: 360px;
-    display: flex; flex-direction: column; align-items: center;
-    padding: 56px 0 56px;
+  .banner.is-open { height: auto; min-height: 360px; padding: 56px 0; }
+  /* relative, а не static: иначе заголовок оказывается под белой подложкой и не виден */
+  .banner.is-open .banner__title {
+    position: relative; left: auto; top: auto; transform: none;
+    font-size: 44px; margin-bottom: 28px;
   }
-  .banner.is-open .banner__title { position: static; transform: none; font-size: 44px; margin-bottom: 28px; }
-  .banner.is-open .banner__body { grid-template-rows: 1fr; position: relative; transform: none; }
+  .banner.is-open .banner__body { grid-template-rows: 1fr; }
 
   .contacts__grid { grid-template-columns: 1fr; }
   .tile { aspect-ratio: 16 / 10; }
@@ -397,7 +423,7 @@ address { font-style: normal; }
 
 @media (max-width: 600px) {
   .grid { column-gap: 14px; row-gap: 32px; }
-  .card__title { font-size: 19px; line-height: 24px; margin-top: 16px; }
+  .card__title { font-size: 19px; line-height: 24px; margin-top: 0; }
   .card__meta { font-size: 15px; line-height: 20px; margin-top: 8px; }
   .card__price { font-size: 18px; }
   .filters__item { font-size: 21px; }
