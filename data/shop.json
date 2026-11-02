@@ -30,35 +30,35 @@
       "name": "Александр Вонг",
       "category": "bags",
       "price": 100,
-      "description": "Сумка чёрная средняя,14•38•23 см,качество Люкс",
+      "description": "Сумка чёрная средняя,14x38x23 см,качество Люкс",
       "image": "./img/bags/01.jpg",
       "image2": ""
     },{
       "name": "Chanel",
       "category": "bags",
       "price": 120,
-      "description": "Чёрная эко-кожа,качество Люкс,25•15 см",
+      "description": "Чёрная эко-кожа,качество Люкс,25x15 см",
       "image": "./img/bags/02.jpg",
       "image2": "./img/bags/022.jpg"
     },{
       "name": "Louis Vuitton",
       "category": "bags",
       "price": 120,
-      "description": "Качество люкс,28•32 см",
+      "description": "Качество люкс,28x32 см",
       "image": "./img/bags/03.jpg",
       "image2": ""
     },{
       "name": "Yves Saint Laurent",
       "category": "bags",
       "price": 85,
-      "description": "100% экокожа,20•35 см",
+      "description": "100% экокожа,20x35 см",
       "image": "./img/bags/04.jpg",
       "image2": ""
     },{
       "name": "Hermes",
       "category": "bags",
       "price": 160,
-      "description": "Сумка кожаная,18•50 см",
+      "description": "Сумка кожаная,18x50 см",
       "image": "./img/bags/05.jpg",
       "image2": ""
     },
@@ -66,35 +66,35 @@
       "name": "Спортивный костюм",
       "category": "costume",
       "price": 150,
-      "description": "Размер единый 42-50,качество люкс",
+      "description": "Размер единый 42-50, качество люкс",
       "image": "./img/costume/01.jpg",
       "image2": ""
     },{
       "name": "Спортивный костюм",
       "category": "costume",
       "price": 180,
-      "description": "Размер единый 42-50 ,пометки качество",
+      "description": "Размер единый 42-50, пометки качество",
       "image": "./img/costume/02.jpg",
       "image2": ""
     },{
       "name": "Утепленный спортивный костюм",
       "category": "costume",
       "price": 200,
-      "description": "Со съемным эко мехом, подкладка велюр,размер единый 42-50",
+      "description": "Со съемным эко мехом, подкладка велюр, размер единый 42-50",
       "image": "./img/costume/03.jpg",
       "image2": ""
     },{
       "name": "Утепленный спортивный костюм",
       "category": "costume",
       "price": 230,
-      "description": "Премиум качество,размер единый 42-50",
+      "description": "Премиум качество, размер единый 42-50",
       "image": "./img/costume/04.jpg",
       "image2": ""
     },{
       "name": "Утепленный костюм",
       "category": "costume",
       "price": 230,
-      "description": "Премиум качество,размер единый 42-50",
+      "description": "Премиум качество, размер единый 42-50",
       "image": "./img/costume/05.jpg",
       "image2": ""
     },
